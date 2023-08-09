@@ -8,7 +8,7 @@ function Topbar() {
     <nav className='topbar'>
       <Link href='/' className='flex items-center gap-4'>
         <Image src='/logo.svg' alt='logo' width={50} height={50} />
-        <p className='text-heading3-bold text-light-1 max-xs:hidden'>Holiday</p>
+        <p className='text-heading3-bold text-dark-1 max-xs:hidden'>Holiday</p>
       </Link>
 
       <div className='flex items-center gap-1'>
@@ -31,7 +31,7 @@ function Topbar() {
           appearance={{
             baseTheme: dark,
             elements: {
-              organizationSwitcherTrigger: "py-2 px-4",
+              organizationSwitcherTrigger: "py-2 px-4 text-dark-1",
             },
           }}
         />
